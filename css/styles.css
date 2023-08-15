@@ -1,0 +1,21 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(#16a8f1, rgb(193, 236, 245), rgb(255, 255, 255));
+}
+
+.Angeles{
+    width: 200px;
+    height: 250px;
+    background-color: none;
+}
+
+#Angel1{
+    position: absolute; left: 1%; top: 0%;;
+}
+
+#Angel2{
+    position: absolute; left: 84%; top: 0%;;
+}
