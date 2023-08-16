@@ -1,21 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&display=swap');
+
+/*
+Fuentes importadas 
+-Allura
+-Great Vibe
+*/
+
 html{
     height: 100%;
+    width: 100%;
 }
 
+/*
+Degradado del fondo
+*/
 body{
     background-image: linear-gradient(#16a8f1, rgb(193, 236, 245), rgb(255, 255, 255));
 }
 
+/*
+Ajuste de tamaño para las imagenes de las esquinas
+*/
 .Angeles{
     width: 200px;
     height: 250px;
     background-color: none;
 }
 
+
+/*
+Posicionamiento de las imagenes de angeles
+*/
 #Angel1{
-    position: absolute; left: 1%; top: 0%;;
+    position: absolute; 
+    left: 1%; 
+    top: 0%;;
 }
 
 #Angel2{
-    position: absolute; left: 84%; top: 0%;;
+    position: absolute; 
+    right: 1%; 
+    top: 0%;;
+}
+
+#page_name{
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+}
+
+li{
+    float: left;
+}
+
+#Menu{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    
+    list-style-type: none;
+
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(0, 204, 255);
+    border: 2px solid black;
+
+}
+
+li text{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px solid black;
+
+    cursor: pointer;
+}
+
+li text:hover {
+    background-color: #16f192;
+}
+
+#main_text{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 65%;
+    width: 75%;
+
+    border: 5px solid black;
+
 }
