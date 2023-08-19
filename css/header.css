@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&display=swap');
+
+/*
+Fuentes importadas 
+-Allura
+-Great Vibe
+*/
+
+/*Variables*/
+:root {
+    --hTop: 0%;
+    --hLeft: 50%;
+}
+
+/*Ajuste del header*/
+header{
+    /*Ajuste de tamaño*/
+    width: 100%;
+    height: 20%;
+
+    /*Ajuste de posicion*/
+    position: absolute;
+    top: var(--hTop);
+    left: var(--hLeft);
+    transform: translate(calc(var(--hLeft)*(-1)));
+
+    border: solid black;
+    background-color: cadetblue;
+
+}
+
+/*Ajuste del tamaño de las imagenes*/
+header img{    
+    width: 10%;
+    height: 100%;
+}
+
+/*Posicionamiento de los angeles*/
+#Angel1{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: (-0%, -0%);
+}
+
+#Angel2{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: (-0%, -0%);
+}
+
+header h1{
+    /*Posicionamiento del titulo*/
+    position: absolute;
+    top: 50%;
+    left: var(--hLeft);
+    transform: translate(calc(var(--hLeft)*(-1)), -50%);
+
+    
+    /*Ajuste de la fuente*/
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+}
