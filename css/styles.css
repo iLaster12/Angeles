@@ -83,7 +83,7 @@ li text:hover {
     background-color: #16f192;
 }
 
-#main_text{
+.main_text{
     position: absolute;
     top: 65%;
     left: 50%;
@@ -94,4 +94,18 @@ li text:hover {
 
     border: 5px solid black;
 
+    visibility: hidden;
+
+}
+
+#msg1{
+    visibility:hidden;
+}
+
+#msg2{
+    visibility:hidden;
+}
+
+#msg3{
+    visibility:hidden;
 }
